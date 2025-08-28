@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laravel Launcher</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      text-align: center;
+      padding-top: 100px;
+    }
+    button {
+      padding: 15px 40px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: #28a745;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+  <script type="text/javascript">
+    function runScript() {
+      try {
+        var shell = new ActiveXObject("WScript.Shell");
+        shell.Run("cmd.exe /c run-system.cmd", 1, false);
+      } catch (e) {
+        alert("Error: " + e.message);
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Laravel Setup Launcher</h1>
+  <p>Click below to run the setup script:</p>
+  <button onclick="runScript()">Run System</button>
+</body>
+</html>
