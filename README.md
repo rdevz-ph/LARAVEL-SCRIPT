@@ -15,6 +15,7 @@ This project includes a **PowerShell setup script** and simple launchers to make
   - `php artisan db:seed --force`
   - `php artisan optimize`
   - Starts:
+    - `npm run build` in a new terminal
     - `npm run dev` in a new terminal
     - `php artisan serve` in a new terminal
   - Opens browser to `http://127.0.0.1:8000`

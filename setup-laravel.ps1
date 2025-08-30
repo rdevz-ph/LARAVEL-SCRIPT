@@ -89,6 +89,10 @@ Write-Host "[..] php artisan optimize"
 php artisan optimize
 Write-Host "[OK] optimized."
 
+# start initial build (new windows)
+Write-Host "[..] starting Vite (npm run build) in a new window..."
+Start-Process -FilePath "cmd.exe" -ArgumentList '/k','npm run build' -WorkingDirectory (Get-Location)
+
 # start dev servers (new windows)
 Write-Host "[..] starting Vite (npm run dev) in a new window..."
 Start-Process -FilePath "cmd.exe" -ArgumentList '/k','npm run dev' -WorkingDirectory (Get-Location)
