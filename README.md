@@ -1,8 +1,26 @@
 # Laravel One-Click Setup
 
-This project includes a **PowerShell setup script** and simple launchers to make running your Laravel dev environment easy with one click.
+This project includes a modern desktop GUI setup assistant, along with legacy scripts to make running your Laravel dev environment easy.
 
-## 📂 Files
+## Recommended Method
+
+### Laravel Setup Assistant v1.0-beta
+
+First public beta release converting the legacy HTA and PowerShell scripts into a native desktop GUI.
+
+Download the standalone `.exe` from the [Releases](https://github.com/rdevz-ph/LARAVEL-SCRIPT/releases) page.
+
+### Key Features
+- **Modern GUI**: Sleek, pure black interface built with CustomTkinter.
+- **Requirements Check**: Sidebar displaying PHP, Composer, and NPM versions.
+- **Directory Selector**: Validates Laravel folders by checking for the `artisan` file.
+- **Live Setup Logs**: Monospace terminal viewer streaming subprocess output in real-time.
+- **Server Monitor**: Background checkers tracking active Apache and MySQL status.
+- **Optimized Executable**: Standalone `.exe` compiled with Nuitka and compressed using `zstandard`.
+
+---
+
+## Files (Legacy)
 
 - **setup-laravel.ps1**  
   PowerShell script that runs all the setup steps:
@@ -29,7 +47,7 @@ This project includes a **PowerShell setup script** and simple launchers to make
 
 ---
 
-## 🚀 How to Use
+## How to Use (Legacy Script Methods)
 
 ### Method 1 – PowerShell (direct)
 Run from project root:
@@ -54,7 +72,7 @@ This will call the PowerShell script with the proper flags.
 
 ---
 
-## 📝 Notes
+## Notes
 - Make sure `php`, `composer`, and `npm` are available in your system PATH.
 - If `storage:link` fails on Windows, run the script as **Administrator**.
 - The `.hta` file works only on Windows (uses `WScript.Shell`).
@@ -64,11 +82,12 @@ This will call the PowerShell script with the proper flags.
 
 ---
 
-## ⚡ Tips
+## Tips
 - Create a **desktop shortcut** to `run-system.cmd` or `index.hta` and assign a custom icon for true one-click convenience.
 - You can pin the shortcut to your **Taskbar** or **Start Menu** for easy access.
 
 ---
 
-## 📜 License
-MIT License © 2025 **Romel Brosas**
+## License
+[MIT License](LICENSE) © 2026 **Romel Brosas**
+
