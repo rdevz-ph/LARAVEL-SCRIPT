@@ -2,16 +2,13 @@
 
 This project includes a modern desktop GUI setup assistant, along with legacy scripts to make running your Laravel dev environment easy.
 
-## Recommended Method
-
-### Laravel Setup Assistant v1.0-beta
-
-First public beta release converting the legacy HTA and PowerShell scripts into a native desktop GUI.
+### Laravel Setup Assistant v1.1 (Recommended)
 
 Download the standalone `.exe` from the [Releases](https://github.com/rdevz-ph/LARAVEL-SCRIPT/releases) page.
 
 ### Key Features
 - **Modern GUI**: Sleek, pure black interface built with CustomTkinter.
+- **Customizable Steps**: Toggle/skip individual setup tasks via checkboxes.
 - **Requirements Check**: Sidebar displaying PHP, Composer, and NPM versions.
 - **Directory Selector**: Validates Laravel folders by checking for the `artisan` file.
 - **Live Setup Logs**: Monospace terminal viewer streaming subprocess output in real-time.
@@ -90,4 +87,3 @@ This will call the PowerShell script with the proper flags.
 
 ## License
 [MIT License](LICENSE) © 2026 **Romel Brosas**
-
