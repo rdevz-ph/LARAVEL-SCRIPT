@@ -2,18 +2,18 @@
 
 This project includes a modern desktop GUI setup assistant, along with legacy scripts to make running your Laravel dev environment easy.
 
-### Laravel Setup Assistant v1.1 (Recommended)
+### Laravel Setup Assistant v1.3 (Recommended)
 
 Download the standalone `.exe` from the [Releases](https://github.com/rdevz-ph/LARAVEL-SCRIPT/releases) page.
 
 ### Key Features
-- **Modern GUI**: Sleek, pure black interface built with CustomTkinter.
+- **Modern GUI**: Sleek, pure black interface built natively with C# WPF.
 - **Customizable Steps**: Toggle/skip individual setup tasks via checkboxes.
 - **Requirements Check**: Sidebar displaying PHP, Composer, and NPM versions.
 - **Directory Selector**: Validates Laravel folders by checking for the `artisan` file.
 - **Live Setup Logs**: Monospace terminal viewer streaming subprocess output in real-time.
 - **Server Monitor**: Background checkers tracking active Apache and MySQL status.
-- **Optimized Executable**: Standalone `.exe` compiled with Nuitka and compressed using `zstandard`.
+- **Optimized Executable**: Standalone `.exe` compiled with C#/.NET 8.
 
 ---
 
