@@ -2,7 +2,7 @@
 
 This project includes a modern desktop GUI setup assistant, along with legacy scripts to make running your Laravel dev environment easy.
 
-### Laravel Setup Assistant v1.5 (Recommended)
+### Laravel Setup Assistant v1.6 (Recommended)
 
 Download the standalone `.exe` from the [Releases](https://github.com/rdevz-ph/LARAVEL-SCRIPT/releases) page.
 
